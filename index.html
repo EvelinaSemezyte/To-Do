@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>To-Do</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap" rel="stylesheet">
+</head>
+
+<body onload="displayItems()">
+  <form class="" action="index.html" method="post">
+    <div class="section">
+      <label for="description">Description</label>
+      <input id="description" type="text" name="description" maxlength="160" size="30" required>
+    </div>
+    <div class="section">
+      <label for="deadline">Deadline</label>
+      <input id="deadline" type="datetime-local" name="deadline">
+    </div>
+    <div class="section">
+      <button type="submit" name="button" onclick="newItem()">Add</button>
+    </div>
+  </form>
+  <div class="">
+    <button type="submit" name="button" onclick="sortdid()">Sort</button>
+    <button type="submit" name="button" onclick="sortmaz()">Sort</button>
+  </div>
+
+
+
+  <script type="text/javascript" src="index.js"></script>
+</body>
+
+</html>

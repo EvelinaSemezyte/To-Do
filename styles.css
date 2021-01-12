@@ -1,0 +1,28 @@
+
+body{
+  text-align:center;
+  font-family: 'Roboto', sans-serif;
+}
+input{
+  border-radius: 3px;
+}
+label{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+}
+.section{
+  padding: 1% 0;
+}
+button{
+  width: 50px;
+  height: 30px;
+  border: 2px solid #000000;
+  background-color: Transparent;
+  color: #000000;
+  box-sizing: border-box;
+  border-radius: 25px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+}
